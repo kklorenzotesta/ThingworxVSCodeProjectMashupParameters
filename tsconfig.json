@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "ESNext",
+        "target": "es5",
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "noImplicitOverride": true,
+        "strict": true,
+        "declaration": true,
+        "jsx": "react",
+        "jsxFactory": "defineWidget",
+        "jsxFragmentFactory": "defineWidget",
+        "skipLibCheck": true,
+        "moduleResolution": "Node",
+        "lib": [
+            "esnext"
+        ],
+        "typeRoots": [
+            "./typings/",
+            "./node_modules/@types/"
+        ]
+    },
+    "references": [],
+    "include": [
+        "./static/**/*.d.ts",
+        "./src/**/*.d.ts",
+        "./src/**/*.ts",
+        "./src/**/*.tsx",
+        "./tw_imports/**/*.d.ts",
+        "./node_modules/bm-thing-transformer/static/**/*.d.ts",
+        "./node_modules/bm-thing-cli/node_modules/bm-thing-transformer/static/**/*.d.ts"
+    ]
+}
